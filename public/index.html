@@ -28,4 +28,15 @@
 <body>
   <h1>Fror</h1>
 </body>
+<script>
+  setInterval(async () => {
+    try {
+      const response = await fetch('/texto');
+      const value = await response.text();
+      document.querySelector('h1').innerHTML = value;
+    } catch {
+      console.error('erro kkkkkkkkkk')
+    }
+  }, 1000);
+</script>
 </html>
