@@ -31,7 +31,7 @@
 <script>
   setInterval(async () => {
     try {
-      const response = await fetch('/texto');
+      const response = await fetch('https://gist.githubusercontent.com/aripiprazole/917b05babddaf11c90d6b9fc8e16e139/raw/a04d01941f7ab9ed1d25b2a805cd8fdc55395372/texto');
       const value = await response.text();
       document.querySelector('h1').innerHTML = value;
     } catch {
