@@ -1,5 +1,5 @@
 <script>
-	let value = 'fror';
+	let value = '@v@';
 
 	$: setInterval(async () => {
 		try {
