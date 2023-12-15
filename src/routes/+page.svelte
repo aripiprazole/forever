@@ -29,6 +29,7 @@
 	  font-family: Minecraft, sans-serif;
 		font-size: 7rem;
 		text-align: center;
+		line-height: 1.2;
 		text-shadow: 0 0 5px var(--text-color), 0 0 15px var(--text-color), 0 0 20px var(--text-color), 0 0 40px var(--text-color), 0 0 60px var(--text-color-constrast), 0 0 10px var(--text-color-shade), 0 0 98px var(--text-color-constrast);
   }
 </style>
