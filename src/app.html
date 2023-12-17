@@ -27,5 +27,15 @@
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
+
+		<!-- Background sound -->
+        	<audio id="backgroundAudio" loop>
+            		<source src="background.mp3">
+        	</audio>
+		<script>
+			window.addEventListener('click', () => {
+				document.getElementById("backgroundAudio").play();
+			});
+		</script>
 	</body>
 </html>
